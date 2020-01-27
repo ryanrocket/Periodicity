@@ -1,6 +1,6 @@
 <template>
     <div class="nav">
-        <!--DISABLED Hamburger menu (redundant navigation)-->
+        <!--Toggle for hamburger menu-->
         <!-- <span class="menuWrap" :style="menuPreload">
             <Menu/>
         </span>-->
@@ -29,7 +29,6 @@
 
 <script>
 import Menu from "./Menu";
-// import { TweenMax } from "gsap";
 
 export default {
     name: "Navigation",
@@ -78,7 +77,6 @@ export default {
         transition: 0.5s;
     }
     h1.mainTitle {
-        // position: absolute;
         margin-left: 24vw;
         margin-top: -1.7vw;
         width: 50%;
